@@ -1,16 +1,76 @@
 import React from 'react';
-import { ParallaxProvider, Parallax } from 'react-scroll-parallax';
+import { ParallaxProvider, ParallaxBanner } from 'react-scroll-parallax';
 
 const layer = () => (
   <ParallaxProvider>
-    <Parallax y={['0%', '-100%']}>
-      
-    </Parallax>
+    <ParallaxBanner
+      layers={[
+        {
+          children: <video autoPlay muted loop src="/layer.mp4" type="video/mp4" id="video" />,
+          amount: 1.498969,
+        },
+      ]}
+    />
+    a
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    a
 
     <style jsx>
       {`
         #video {
-          width: 100%;
+          position: absolute;
+          left: 50%;
+          transform: translate(-50%) scale(0.8);
         }
       `}
     </style>
