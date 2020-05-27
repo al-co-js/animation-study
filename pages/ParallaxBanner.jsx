@@ -1,17 +1,68 @@
 import React from 'react';
 import { ParallaxProvider, ParallaxBanner } from 'react-scroll-parallax';
 
-const layer = () => (
+const parallaxBanner = () => (
   <ParallaxProvider>
     <ParallaxBanner
       layers={[
         {
-          children: <video autoPlay muted loop src="/layer.mp4" type="video/mp4" id="video" />,
-          amount: 1.498969,
+          image: '/parallaxImage.jpg',
+          amount: 1.2,
         },
       ]}
     />
-
+    <p>a</p>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <p>a</p>
     <style jsx>
       {`
         #video {
@@ -21,7 +72,6 @@ const layer = () => (
         }
       `}
     </style>
-
     <style jsx global>
       {`
         body {
@@ -36,4 +86,4 @@ const layer = () => (
   </ParallaxProvider>
 );
 
-export default layer;
+export default parallaxBanner;
