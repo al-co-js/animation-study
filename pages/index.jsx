@@ -2,7 +2,9 @@ import React from 'react';
 
 const main = () => (
   <>
-    <a href="/layer">Layer</a>
+    <a href="/parallaxbanner">Parrallax Banner</a>
+    <br />
+    <a href="/spring">Spring</a>
   </>
 );
 
